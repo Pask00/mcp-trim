@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "rules": [],
+  "autoLearn": { "enabled": true, "minInvocations": 3, "minFeedback": 2 },
+  "debug": false
+}

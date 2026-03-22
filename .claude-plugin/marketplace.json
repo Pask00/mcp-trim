@@ -1,0 +1,26 @@
+{
+  "name": "mcp-trim",
+  "owner": {
+    "name": "pask00"
+  },
+  "metadata": {
+    "description": "Marketplace for token-saving response trimmer for Claude Code MCP tools."
+  },
+  "plugins": [
+    {
+      "name": "mcp-trim",
+      "source": "./",
+      "description": "Intercepts MCP tool responses and trims to only the fields the agent needs — saving tokens and reducing context noise.",
+      "version": "0.1.1",
+      "author": {
+        "name": "pask00"
+      },
+      "homepage": "https://github.com/pask00/mcp-trim",
+      "repository": "https://github.com/pask00/mcp-trim",
+      "license": "MIT",
+      "keywords": ["ai", "agent", "token-saving", "api", "claude", "claude-code", "hooks", "mcp", "llm"],
+      "category": "productivity",
+      "tags": ["mcp", "token-saving", "trimming", "auto-learn"]
+    }
+  ]
+}

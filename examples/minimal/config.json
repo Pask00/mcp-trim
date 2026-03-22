@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "my-mcp-tool",
+      "description": "Example: keep only id and name from any response",
+      "match": { "toolName": "mcp__myserver__my_tool" },
+      "keep": {
+        "id": true,
+        "name": true
+      }
+    }
+  ],
+  "autoLearn": { "enabled": true, "minInvocations": 5, "minFeedback": 3 },
+  "debug": false
+}

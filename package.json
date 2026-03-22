@@ -1,0 +1,42 @@
+{
+  "name": "mcp-trim",
+  "version": "0.1.1",
+  "description": "Token-saving response trimmer for Claude Code. Intercepts tool/API responses and trims to only the fields the agent needs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "mcp-trim": "dist/cli/mcp-trim.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ai", "agent", "token-saving", "api", "claude", "claude-code", "hooks", "mcp", "llm"],
+  "author": "pask00",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pask00/mcp-trim.git"
+  },
+  "homepage": "https://github.com/pask00/mcp-trim#readme",
+  "bugs": {
+    "url": "https://github.com/pask00/mcp-trim/issues"
+  },
+  "files": [
+    ".claude-plugin",
+    "dist",
+    "hooks",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
