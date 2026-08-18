@@ -5,7 +5,7 @@ node_modules/
 dist/
 
 # Claude Code
-.claude/
+.claude/a
 
 # Environment
 .env
